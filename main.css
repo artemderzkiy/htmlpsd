@@ -39,7 +39,7 @@ body {
 margin-right:0px; 
 }
 .nav a {
-	font:"Open Sans" 14px Comic ;
+	font: 14px/14px Arial ;
 	color: #fff;
 
 }
@@ -51,4 +51,32 @@ margin-right:0px;
 
 background: #222 url(../img/home.png) no-repeat center bottom;
 background-size: cover;}
-.home h3 {font: bold ,48px, "Open Sans"; }
+.home h1 {font:48px/48px Arial, bold; }
+.home h2 {font:25px/25px Arial, regular;
+margin-bottom: 100px; }
+.btn {background: #71b6d5;
+padding: 20px 30px;
+ border-radius: 8px;
+display:inline-block;
+text-transform:uppercase;
+font: 18px/18px Arial bold;
+color: #fff;
+cursor: pointer;
+}
+.what {float: left;
+	width: 33.3%
+}
+.note {
+	margin: 90px;
+	font : 18px/18px Arial regular;
+color :black; 
+text-align: center;}
+.title {
+	font: 20pt/20pt Arial semibold;
+	color: black;
+}
+.desc {
+	font: 13pt/13pt Arial regular;
+	color: black;
+}
+
