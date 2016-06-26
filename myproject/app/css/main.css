@@ -151,9 +151,36 @@ padding-top: 230px;}
 	.testing {margin: 20px;
 	text-align: center;}
 
-.bgfooterone {background: #fff url(../img/bgfooterone.png) no-repeat center;}
-.bgfootertwo {background: #fff url(../img/bgfootertwo.png) no-repeat center ;height: 90px}
+.footertwo{margin: -5px;}
+.bgfooterone {background: #fff url(../img/bgfooterone.png) no-repeat center; height :350px; width: 100%;}
+.bgfootertwo {background: #fff url(../img/bgfootertwo.png) no-repeat center ;height: 90px; width: 100%;}
 
 .footertext {font: 13pt/13pt Arial regular;
 	color: #c4c4c4;}
-	.footersectext {padding: 40px}
+
+
+.footeritem {float: left;
+	width: 22%;
+	margin-right: 20px;}
+
+	.titlefoot {font: 20pt/20pt Arial regular;
+	color: #fff;
+text-transform: uppercase;}
+.info {float: left;}
+.infotext{ font: 13pt/13pt Arial regular;
+	color: #fff;
+	text-decoration: underline;
+	padding-left:40px;  }
+	.hour {font: 13pt/13pt Arial regular;
+	color: #71b6d5;}
+	.tweet {margin-left: 30px;}
+	input {background: #172227;
+		padding: 10px;
+	border-radius: 8px;
+border: none;
+float: left;}
+.toinput {background: #71b6d5;
+	padding: 8px;
+	border-radius: 8px;
+	margin-left: -40px;
+}
