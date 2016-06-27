@@ -3,6 +3,7 @@ html {
 
 body {
   height: 100% ;
+  min-width: 1024px;
 }
 .wrapper {padding-right: 230px}
 .clearfix:before,
@@ -62,14 +63,14 @@ padding: 20px 30px;
  border-radius: 8px;
 display:inline-block;
 text-transform:uppercase;
-font: 18px/18px Arial bold;
+font: 18px/18px Arial, bold;
 color: #fff;
 cursor: pointer;
 }
 .what {float: left;
 	width: 30%;
 	margin-right: 30px;
-	padding-top: 110px  }
+	padding-top: 135px  }
 .what : last-child
 {
 margin-right:0px; 
@@ -82,20 +83,20 @@ margin-right:0px;
 
 .note {
 	margin: 70px;
-	font : 18px/18px Arial regular;
+	font : 18px/18px Arial, regular;
 color :black; 
 text-align: center;}
 .mininote {
 	margin: 70px;
-	font : 15px/15px Arial bold;
+	font : 15px/15px Arial, bold;
 color :black; 
 text-align: center;}
 .title {
-	font: 20pt/20pt Arial semibold;
+	font: 20pt/20pt Arial, semibold;
 	color: black;
 }
 .desc {
-	font: 13pt/13pt Arial regular;
+	font: 13pt/13pt Arial, regular;
 	color: black;
 }
 .features {
@@ -108,14 +109,15 @@ text-align: center;}
 
 }
 
-.zagolovok h1
+.zagolovok
 {
 	
-font: 24pt/24pt Arial bold;
+font: 24pt/24pt Arial, bold;
 }
-.zagolovok strong
+
+strong
 {
-font: 24pt/24pt Arial regular;
+font: 25pt/25pt Arial, regular;
 }
 
 .btn2{
@@ -140,7 +142,7 @@ cursor: pointer;
 	.project {float: left;
 	width: 22%;
 	margin-right: 20px;
-padding-top: 230px;}
+padding-top: 240px;}
 
 .search {background: #fff url(../img/search.png) no-repeat center top;}
 .mountain {background: #fff url(../img/mountain.png) no-repeat center top;}
@@ -151,27 +153,33 @@ padding-top: 230px;}
 	.testing {margin: 20px;
 	text-align: center;}
 
-.footertwo{margin: -5px;}
+
 .bgfooterone {background: #fff url(../img/bgfooterone.png) no-repeat center; height :350px; width: 100%;}
 .bgfootertwo {background: #fff url(../img/bgfootertwo.png) no-repeat center ;height: 90px; width: 100%;}
 
-.footertext {font: 13pt/13pt Arial regular;
-	color: #c4c4c4;}
+.footertext {font: 13pt/13pt Arial, regular;
+	color: #c4c4c4;
+}
 
+.footertwo {line-height: 90px;}
+.footersectext {}
 
 .footeritem {float: left;
 	width: 22%;
-	margin-right: 20px;}
+	margin-right: 20px;
+}
 
-	.titlefoot {font: 20pt/20pt Arial regular;
+	.titlefoot {font: 20pt/20pt Arial, regular;
 	color: #fff;
-text-transform: uppercase;}
+text-transform: uppercase;
+}
+
 .info {float: left;}
-.infotext{ font: 13pt/13pt Arial regular;
+.infotext{ font: 13pt/13pt Arial, regular;
 	color: #fff;
 	text-decoration: underline;
 	padding-left:40px;  }
-	.hour {font: 13pt/13pt Arial regular;
+	.hour {font: 13pt/13pt Arial, regular;
 	color: #71b6d5;}
 	.tweet {margin-left: 30px;}
 	input {background: #172227;
