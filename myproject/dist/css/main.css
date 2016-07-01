@@ -428,11 +428,9 @@ margin-bottom: 20px;}
 
 }
 .sites {
-    position: relative;
+    
    bottom: 10px;
-    left :780px;
-    margin: 0;
-    padding: 0;
+    float : right;
 }
 
 .sites-item {
