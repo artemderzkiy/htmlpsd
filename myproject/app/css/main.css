@@ -1,3 +1,4 @@
+
 body {
  min-width: 1024px;
  height: 100% ;
@@ -387,15 +388,15 @@ background: #fff url(../img/bgfootertwo.png) repeat center ;}
 text-transform: uppercase;
 margin-top: 6px;
 margin-bottom: 20px;}
-.info {float: left;}
-.info-text{ font: 13pt/13pt Arial, regular;}
-	
-	
+
 .info {float: left;}
 
+	
 
 	
-.info-text {color: #fff;
+.info-text {
+	 font: 13pt Arial, regular;
+	 color: #fff;
 	text-decoration: none;
 	padding-left:40px;  }
 
@@ -412,25 +413,24 @@ margin-bottom: 20px;}
             border: none;
             float: left;
             height:38px; 
-            width: 200px;}
+            width: 180px;
+            right:40px;}
 .btn_to_input {
     height:56px;
-    width: 80px;
+    width: 60px;
     background: #71b6d5;
 	padding: 10px;
 	border-radius: 0 10px 10px 0;
     position: relative;
 	top :56px;
-    left: 180px;
-
-
-	color: #fff;
+    left: 160px;
+    color: #fff;
 
 }
 .sites {
     position: relative;
    bottom: 10px;
-    left: 860px;
+    left :780px;
     margin: 0;
     padding: 0;
 }
